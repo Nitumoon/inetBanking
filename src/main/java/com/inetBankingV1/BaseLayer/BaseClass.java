@@ -30,11 +30,6 @@ public class BaseClass {
 
 		logger = LogManager.getLogger("inetBanking");
 
-//		logger.info("for info only");
-//		logger.debug("for debug only");
-//		logger.error("error message");
-//		logger.warn("warning message");
-
 		// open webpage using url
 		driver.get("https://demo.guru99.com/V4/index.php");
 		logger.info("Browser opened");
