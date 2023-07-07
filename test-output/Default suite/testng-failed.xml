@@ -5,6 +5,7 @@
     <classes>
       <class name="com.inetBankingV1.testLayer.TC_LoginTest_001">
         <methods>
+          <include name="tearDown"/>
           <include name="loginTest"/>
         </methods>
       </class> <!-- com.inetBankingV1.testLayer.TC_LoginTest_001 -->

@@ -2,10 +2,13 @@ package com.inetBankingV1.BaseLayer;
 
 import java.util.concurrent.TimeUnit;
 
-import org.apache.log4j.PropertyConfigurator;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -14,38 +17,47 @@ public class BaseClass {
 	public WebDriver driver;
 	public String uName = "mngr513212";
 	public String uPassword = "jevUhyg";
-//	public static Logger logger;
+	public static Logger logger;
 
 	// start browser
+	@BeforeClass
 	public void setup() {
+
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions co = new ChromeOptions();
 		co.addArguments("--remote-allow-origins=*");
 		driver = new ChromeDriver(co);
+
+		logger = LogManager.getLogger("inetBanking");
+
+//		logger.info("for info only");
+//		logger.debug("for debug only");
+//		logger.error("error message");
+//		logger.warn("warning message");
+
 		// open webpage using url
 		driver.get("https://demo.guru99.com/V4/index.php");
-//		logger.info("URL is opened");
+		logger.info("Browser opened");
 
 		// maximize Browser
 		driver.manage().window().maximize();
-//		logger.info("maximize the browser");
 
 		// clear cookies
 		driver.manage().deleteAllCookies();
-//		logger.info("delete all coockies");
 
 		// add implicit wait
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-//		logger.info("add implicit wait");
 		// add log file
-//		logger = Logger.getLogger("inetBanking");
-		PropertyConfigurator.configure("Log4j.properties");
+
 	}
 
 	// close browser
-	public void tearDown() {
+	@AfterClass
+	public void tearDown() throws InterruptedException {
+		Thread.sleep(2000);
 		driver.close();
-//		logger.info("close browser");
+		logger.info("Browser close");
+
 	}
 
 }

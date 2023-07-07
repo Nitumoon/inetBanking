@@ -1,0 +1,7 @@
+[INFO ] 2023-07-08 03:33:46.090 [main] inetBanking - Browser opened
+[INFO ] 2023-07-08 03:33:46.506 [main] inetBanking - enter userId
+[INFO ] 2023-07-08 03:33:46.589 [main] inetBanking - enter password
+[INFO ] 2023-07-08 03:33:47.866 [main] inetBanking - click on login button
+[INFO ] 2023-07-08 03:33:47.877 [main] inetBanking - verify Title
+[INFO ] 2023-07-08 03:33:47.877 [main] inetBanking - TC_LoginTest_001 is passed
+[INFO ] 2023-07-08 03:33:49.995 [main] inetBanking - Browser close
