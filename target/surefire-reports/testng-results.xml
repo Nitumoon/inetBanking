@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-08T03:53:47 IST" name="Suite" finished-at="2023-07-08T03:53:59 IST" duration-ms="12449">
+  <suite started-at="2023-07-08T15:17:13 IST" name="Suite" finished-at="2023-07-08T15:17:25 IST" duration-ms="11937">
     <groups>
     </groups>
-    <test started-at="2023-07-08T03:53:47 IST" name="Test" finished-at="2023-07-08T03:53:59 IST" duration-ms="12449">
+    <test started-at="2023-07-08T15:17:13 IST" name="Test" finished-at="2023-07-08T15:17:25 IST" duration-ms="11937">
       <class name="com.inetBankingV1.testLayer.TC_LoginTest_001">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.inetBankingV1.testLayer.TC_LoginTest_001@5c5eefef]" started-at="2023-07-08T03:53:47 IST" name="setup" finished-at="2023-07-08T03:53:54 IST" duration-ms="7739" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.inetBankingV1.testLayer.TC_LoginTest_001@5c5eefef]" started-at="2023-07-08T15:17:13 IST" name="setup" finished-at="2023-07-08T15:17:21 IST" duration-ms="8299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.inetBankingV1.testLayer.TC_LoginTest_001@5c5eefef]" started-at="2023-07-08T03:53:54 IST" name="loginTest" finished-at="2023-07-08T03:53:57 IST" duration-ms="2552" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.inetBankingV1.testLayer.TC_LoginTest_001@5c5eefef]" started-at="2023-07-08T15:17:21 IST" name="loginTest" finished-at="2023-07-08T15:17:23 IST" duration-ms="1430" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetBankingV1.testLayer.TC_LoginTest_001@5c5eefef]" started-at="2023-07-08T03:53:57 IST" name="tearDown" finished-at="2023-07-08T03:53:59 IST" duration-ms="2112" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetBankingV1.testLayer.TC_LoginTest_001@5c5eefef]" started-at="2023-07-08T15:17:23 IST" name="tearDown" finished-at="2023-07-08T15:17:25 IST" duration-ms="2176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

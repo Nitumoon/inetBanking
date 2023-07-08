@@ -1,0 +1,14 @@
+[INFO ] 2023-07-08 14:19:42.385 [main] inetBanking - Browser opened
+[INFO ] 2023-07-08 14:19:42.832 [main] inetBanking - enter userId
+[INFO ] 2023-07-08 14:19:42.947 [main] inetBanking - enter password
+[INFO ] 2023-07-08 14:19:43.980 [main] inetBanking - click on login button
+[INFO ] 2023-07-08 14:19:43.995 [main] inetBanking - verify Title
+[INFO ] 2023-07-08 14:19:43.995 [main] inetBanking - TC_LoginTest_001 is passed
+[INFO ] 2023-07-08 14:19:46.151 [main] inetBanking - Browser close
+[INFO ] 2023-07-08 15:17:21.366 [main] inetBanking - Browser opened
+[INFO ] 2023-07-08 15:17:21.760 [main] inetBanking - enter userId
+[INFO ] 2023-07-08 15:17:21.852 [main] inetBanking - enter password
+[INFO ] 2023-07-08 15:17:23.035 [main] inetBanking - click on login button
+[INFO ] 2023-07-08 15:17:23.049 [main] inetBanking - verify Title
+[INFO ] 2023-07-08 15:17:23.049 [main] inetBanking - TC_LoginTest_001 is passed
+[INFO ] 2023-07-08 15:17:25.227 [main] inetBanking - Browser close
