@@ -12,3 +12,72 @@
 [INFO ] 2023-07-08 15:17:23.049 [main] inetBanking - verify Title
 [INFO ] 2023-07-08 15:17:23.049 [main] inetBanking - TC_LoginTest_001 is passed
 [INFO ] 2023-07-08 15:17:25.227 [main] inetBanking - Browser close
+[INFO ] 2023-07-08 15:27:24.550 [main] inetBanking - Browser opened
+[INFO ] 2023-07-08 15:27:25.043 [main] inetBanking - enter userId
+[INFO ] 2023-07-08 15:27:25.148 [main] inetBanking - enter password
+[INFO ] 2023-07-08 15:27:26.005 [main] inetBanking - click on login button
+[INFO ] 2023-07-08 15:27:26.017 [main] inetBanking - verify Title
+[INFO ] 2023-07-08 15:27:26.017 [main] inetBanking - TC_LoginTest_001 is passed
+[INFO ] 2023-07-08 15:27:28.164 [main] inetBanking - Browser close
+[INFO ] 2023-07-08 22:17:08.716 [main] inetBanking - Browser opened
+[INFO ] 2023-07-08 22:17:09.117 [main] inetBanking - enter userId
+[INFO ] 2023-07-08 22:17:09.211 [main] inetBanking - enter password
+[INFO ] 2023-07-08 22:17:10.465 [main] inetBanking - click on login button
+[INFO ] 2023-07-08 22:17:10.473 [main] inetBanking - verify Title
+[INFO ] 2023-07-08 22:17:10.474 [main] inetBanking - TC_LoginTest_001 is passed
+[INFO ] 2023-07-08 22:17:12.602 [main] inetBanking - Browser close
+[INFO ] 2023-09-09 22:53:51.178 [main] inetBanking - Browser opened
+[INFO ] 2023-09-09 22:53:51.563 [main] inetBanking - enter userId
+[INFO ] 2023-09-09 22:53:51.643 [main] inetBanking - enter password
+[INFO ] 2023-09-09 22:53:52.360 [main] inetBanking - click on login button
+[INFO ] 2023-09-09 22:53:54.504 [main] inetBanking - Browser close
+[INFO ] 2023-09-09 22:55:31.639 [main] inetBanking - Browser opened
+[INFO ] 2023-09-09 22:55:32.019 [main] inetBanking - enter userId
+[INFO ] 2023-09-09 22:55:32.103 [main] inetBanking - enter password
+[INFO ] 2023-09-09 22:55:37.809 [main] inetBanking - click on login button
+[INFO ] 2023-09-09 22:55:39.986 [main] inetBanking - Browser close
+[INFO ] 2023-09-09 22:57:21.743 [main] inetBanking - Browser opened
+[INFO ] 2023-09-09 22:57:22.112 [main] inetBanking - enter userId
+[INFO ] 2023-09-09 22:57:22.191 [main] inetBanking - enter password
+[INFO ] 2023-09-09 22:57:26.635 [main] inetBanking - click on login button
+[INFO ] 2023-09-09 22:57:28.799 [main] inetBanking - Browser close
+[INFO ] 2023-09-10 00:41:13.487 [main] inetBanking - Browser opened
+[INFO ] 2023-09-10 00:41:13.918 [main] inetBanking - enter userId
+[INFO ] 2023-09-10 00:41:13.998 [main] inetBanking - enter password
+[INFO ] 2023-09-10 00:41:15.115 [main] inetBanking - click on login button
+[INFO ] 2023-09-10 00:41:15.131 [main] inetBanking - verify Title
+[INFO ] 2023-09-10 00:41:15.132 [main] inetBanking - TC_LoginTest_001 is passed
+[INFO ] 2023-09-10 00:41:17.292 [main] inetBanking - Browser close
+[INFO ] 2023-09-10 00:41:40.923 [main] inetBanking - Browser opened
+[INFO ] 2023-09-10 00:41:41.452 [main] inetBanking - enter userId
+[INFO ] 2023-09-10 00:41:41.548 [main] inetBanking - enter password
+[INFO ] 2023-09-10 00:41:42.795 [main] inetBanking - click on login button
+[INFO ] 2023-09-10 00:41:42.804 [main] inetBanking - verify Title
+[INFO ] 2023-09-10 00:41:42.804 [main] inetBanking - TC_LoginTest_001 is passed
+[INFO ] 2023-09-10 00:41:44.978 [main] inetBanking - Browser close
+[INFO ] 2023-09-10 00:42:51.267 [main] inetBanking - Browser opened
+[INFO ] 2023-09-10 00:42:51.657 [main] inetBanking - enter userId
+[INFO ] 2023-09-10 00:42:51.738 [main] inetBanking - enter password
+[INFO ] 2023-09-10 00:42:53.075 [main] inetBanking - click on login button
+[INFO ] 2023-09-10 00:42:53.085 [main] inetBanking - verify Title
+[INFO ] 2023-09-10 00:42:53.085 [main] inetBanking - TC_LoginTest_001 is passed
+[INFO ] 2023-09-10 00:42:55.276 [main] inetBanking - Browser close
+[INFO ] 2023-09-10 13:21:05.218 [main] inetBanking - Browser opened
+[INFO ] 2023-09-10 13:21:05.641 [main] inetBanking - enter userId
+[INFO ] 2023-09-10 13:21:05.766 [main] inetBanking - enter password
+[INFO ] 2023-09-10 13:21:07.126 [main] inetBanking - click on login button
+[INFO ] 2023-09-10 13:21:07.142 [main] inetBanking - verify Title
+[INFO ] 2023-09-10 13:21:07.142 [main] inetBanking - TC_LoginTest_001 is passed
+[INFO ] 2023-09-10 13:21:09.276 [main] inetBanking - Browser close
+[INFO ] 2023-09-10 13:24:23.271 [main] inetBanking - Browser opened
+[INFO ] 2023-09-10 13:24:23.669 [main] inetBanking - enter userId
+[INFO ] 2023-09-10 13:24:23.801 [main] inetBanking - enter password
+[INFO ] 2023-09-10 13:24:24.268 [main] inetBanking - click on login button
+[INFO ] 2023-09-10 13:24:26.447 [main] inetBanking - Browser close
+[INFO ] 2023-09-10 13:24:48.070 [main] inetBanking - Browser opened
+[INFO ] 2023-09-10 13:24:48.460 [main] inetBanking - enter userId
+[INFO ] 2023-09-10 13:24:48.566 [main] inetBanking - enter password
+[INFO ] 2023-09-10 13:24:49.848 [main] inetBanking - click on login button
+[INFO ] 2023-09-10 13:24:49.866 [main] inetBanking - verify Title
+[INFO ] 2023-09-10 13:24:49.866 [main] inetBanking - TC_LoginTest_001 is passed
+[INFO ] 2023-09-10 13:24:51.978 [main] inetBanking - Browser close

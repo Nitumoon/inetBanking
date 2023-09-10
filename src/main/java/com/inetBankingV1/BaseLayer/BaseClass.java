@@ -10,14 +10,19 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
+import com.inetBankingV1.utilityLayer.ReadConfig;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
 	// global variables
 	public WebDriver driver;
-	public String uName = "mngr513212";
-	public String uPassword = "jevUhyg";
+//	public String uName = "mngr526948";
+//	public String uPassword = "sEbUren";
 	public static Logger logger;
+
+	// create object ReadConfigClass
+	ReadConfig readconfig = new ReadConfig();
 
 	// start browser
 	@BeforeClass
@@ -31,7 +36,7 @@ public class BaseClass {
 		logger = LogManager.getLogger("inetBanking");
 
 		// open webpage using url
-		driver.get("https://demo.guru99.com/V4/index.php");
+		driver.get(readconfig.getUrl());
 		logger.info("Browser opened");
 
 		// maximize Browser

@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 
 import com.inetBankingV1.BaseLayer.BaseClass;
 import com.inetBankingV1.pageLayer.LoginPage;
+import com.inetBankingV1.utilityLayer.ReadConfig;
 
 public class TC_LoginTest_001 extends BaseClass {
 	@Test
@@ -12,14 +13,15 @@ public class TC_LoginTest_001 extends BaseClass {
 
 		// object of LoginPage
 		LoginPage lp = new LoginPage(driver);
+		ReadConfig readconfig = new ReadConfig();
 
 		// call methods from loginPage Class
 		// enter UserId
-		lp.enterUserName(uName);
+		lp.enterUserName(readconfig.getUsername());
 		logger.info("enter userId");
 
 		// enter password
-		lp.enterpassword(uPassword);
+		lp.enterpassword(readconfig.getPassword());
 		logger.info("enter password");
 
 		// click on login
